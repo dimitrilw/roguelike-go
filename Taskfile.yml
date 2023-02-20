@@ -1,0 +1,15 @@
+# https://taskfile.dev/#/
+
+version: 3
+
+tasks:
+  default:
+    cmds:
+      - task -l
+    silent: true
+
+  run:
+    desc: Runs the app.
+    cmds:
+      - go run *.go
+      # - go run main.go

@@ -1,0 +1,29 @@
+{
+  // cSpell info: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+  "cSpell.ignorePaths": [
+    // repo files
+    ".git",                // Ignore the .git directory
+  ],
+  "cSpell.words": [
+    "roguelike",
+    "blit",
+    // go terms
+    "benchmem", // remove me???
+    "gopls", // remove me???
+    "bools", // remove me???
+    // package names
+    "hajimehoshi",
+    "ebiten",
+    "ebitenutil",
+    // Taskfile stuff
+    "taskfile",
+    "cmds",
+    // dev-container stuff
+    "devcontainer",
+    "devcontainers",
+    "eitsupi", // part of Taskfile feature name
+  ],
+  // "gopls": {
+  //   "experimentalWorkspaceModule": true,
+  // },
+}
